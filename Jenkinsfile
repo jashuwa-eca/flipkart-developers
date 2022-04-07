@@ -10,7 +10,6 @@ node('Node1')
     {
         sh "${mavenHome}/bin/mvn clean package"
     }
-    /*
     stage("ExecutetheSonarQubeReport")
     {
         sh "${mavenHome}/bin/mvn clean package sonar:sonar"
@@ -33,5 +32,4 @@ node('Node1')
 Regards,
 Jashuwa VR.''', subject: 'Build is over', to: 'krisjash999@gmail.com'
     }
-    */
 }
